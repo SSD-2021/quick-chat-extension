@@ -5,7 +5,7 @@ import {Navbar, NavDropdown, Nav, MenueItem} from 'react-bootstrap';
 function App() {
   return (
     <div>
-				<Navbar collapseOnSelect expand="lg" className="top-nav">
+	<Navbar collapseOnSelect expand="lg" className="top-nav">
           <div className="container">
           <Navbar.Brand href="#home">Quick Chat</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -23,7 +23,7 @@ function App() {
           </Navbar.Collapse>
           </div>
         </Navbar>
-			</div>
+    </div>
   );
 }
 
