@@ -6,7 +6,7 @@ import {Navbar, NavDropdown, Nav, MenueItem} from 'react-bootstrap';
  class App extends Component {
   render(){
         return (
-            <div>
+           <div>
                 <Navbar collapseOnSelect expand="lg" className="top-nav">
                   <div className="container">
                   <Navbar.Brand href="#home">Quick Chat</Navbar.Brand>
@@ -25,7 +25,7 @@ import {Navbar, NavDropdown, Nav, MenueItem} from 'react-bootstrap';
                   </Navbar.Collapse>
                   </div>
                 </Navbar>
-            </div>
+           </div>
         );
   }
 }
